@@ -13,7 +13,7 @@
 
 <body>
     <!-- Navigation bar start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 w-100">
         <div class="container">
             <img src="Images/Vector.png" alt="navbar-logo" style="height: 30px; margin-right: 10px;">
             <a class="navbar-brand fs-4 fw-bolder" href="#">Host Ease</a>
@@ -28,13 +28,13 @@
                         <a class="nav-link active me-4" aria-current="page" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active me-4" href="#">Services</a>
+                        <a class="nav-link active me-4" href="#Services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active me-4" aria-disabled="true">Pricing</a>
+                        <a class="nav-link active me-4" href="#Pricing" aria-disabled="true">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active me-4" aria-disabled="true">Blog</a>
+                        <a class="nav-link active me-4" href="#Blog" aria-disabled="true">Blog</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -48,7 +48,7 @@
     <!-- section one start -->
     <section class="container-fluid">
 
-        <div class="container mt-5">
+        <div class="container marge">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-6">
                     <div>
@@ -73,7 +73,7 @@
 
     <!-- section two start-->
     <section class="container-fluid">
-        <div class="container mt-5">
+        <div class="container marge">
             <div class="row section-two">
                 <div class="col me-2 box">
                     <div class="text-center">
@@ -115,9 +115,9 @@
 
 
     <!-- section Three start -->
-    <section class="container-fluid">
+    <section class="container-fluid" id="Services">
 
-        <div class="container mt-5">
+        <div class="container marge">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-6">
                     <div>
@@ -144,7 +144,7 @@
     <!-- section four Our Features start -->
 
     <section class="container-fluid">
-        <div class="container mt-5">
+        <div class="container marge">
             <div class="row">
                 <div class="col d-flex justify-content-center align-items-center">
                     <h1 class="fw-bold fs-1">Our Features</h1>
@@ -159,8 +159,8 @@
 
 
     <!-- section four part 2-->
-    <section class="container-fluid">
-        <div class="container mt-5">
+    <section class="container-fluid" id="Pricing">
+        <div class="container marge">
             <div class="row section-two">
                 <div class="col me-2 box">
                     <div>
@@ -190,7 +190,7 @@
         </div>
     </section>
 
-    <section class="container-fluid">
+    <section class="container-fluid" id="Blog">
         <div class="container mt-4 mymargin">
             <div class="row section-two">
                 <div class="col me-2 box">
@@ -227,7 +227,7 @@
     <!-- section five start -->
 
     <section class="container-fluid">
-        <div class="container mt-5">
+        <div class="container marge">
             <div class="row d justify-content-between">
 
                 <div class="col-md-6">
@@ -254,7 +254,7 @@
     <!-- footer start-->
 
     <footer class="container-fluid">
-        <div class="container mt-5">
+        <div class="container marge">
             <div class="row">
                 <div class="col-md-6">
                     <div class="d-flex align-items-center">
@@ -272,7 +272,7 @@
 
                 <div class="col-md-6">
                     <div class="d-flex gap-3 myfooter-tags justify-content-end lh-lg  myfooter-coloum">
-                        <div class="d-flex flex-column text-end">
+                        <div class="d-flex flex-column text-md-end">
                             <a href="">
                                 <span class="fs-5">Quick Menu</span>
                             </a>
@@ -281,7 +281,7 @@
                             <a href="">Pricing</a>
                             <a href="">Blog</a>
                         </div>
-                        <div class="d-flex flex-column text-end">
+                        <div class="d-flex flex-column text-md-end">
                             <a href="">
                                 <span class="fs-5">Resources</span>
                             </a>

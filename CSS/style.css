@@ -35,6 +35,10 @@
 }
 
 
+.marge{
+    margin-top: 80px;
+}
+
 @media only screen and (max-width: 768px){
     .section-two{
         flex-direction: column;
